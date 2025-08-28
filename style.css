@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+:root{
+  --primary-color: #157989;
+  --primary-light-color: #FF0607;
+  --yellow-color: #FEC65E;
+  --white-color: #FFF;
+  --black-color: black;
+
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 58px;
+  --h1-font-size: 45px;
+  --normal-font-size: 18px;
+  --small-font-size: 16px;
+  --smaller-font-size: 14px;
+
+  --font-semibold: 600;
+  --font-medium: 500;
+}
+
+body{
+  font-family: var(--body-font);
+}
+
+a,
+a:hover{
+  text-decoration: none;
+}
+
+.text-primary{
+  color: white; !important;
+}
+
+.text-dark{
+  color: var(--primary-color);
+}
+
+.bg-primary{
+  background-color: var(--primary-color);
+}
+
+.bg-primary-light{
+  background-color: var(--primary-light-color);
+}
+
+::-webkit-scrollbar{
+  width: 0.625rem;
+}
+
+::-webkit-scrollbar-track{
+  background: var(--white-color);
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+.navbar {
+  padding: 12px;
+  transition: all 0.5s ease;
+}
+
+.navbar-brand span{
+  font-size: 30px;
+  font-weight: var(--font-medium);
+}
+
+.nav-link{
+  margin-right: 39px;
+  font-weight: var(--font-medium);
+  color: var(--black-color);
+}
+
+.nav-link:hover{
+  color: var(--primary-color);
+}
+
+.nav-link.active{
+  color: var(--primary-color);
+}
+
+.drop-shadow{
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.04);
+}
+
+.btn{
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-size: var(--small-font-size);
+}
+
+.btn-primary{
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.btn-primary:hover{
+  filter: drop-shadow(0px 10px 10px rgba(186, 17, 48, 0.15));
+  background-color: var(--primary-color);
+}
+
+.btn-video-play{
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.09);
+  border-radius: 50%;
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  font-size: 30px;
+}
+
+.btn-video-play:hover{
+  color: var(--primary-color);
+}
+
+.btn-video-play i{
+  color: var(--primary-color);
+  line-height: 3rem;
+}
+
+section.home{
+  padding: 10rem 0 10rem;
+}
+
+.text-home-bold{
+  font-size: var(--biggest-font-size);
+  line-height: 87px;
+}
+
+.text-home-bold span{
+  color: var(--primary-color);
+}
+.text-home-reguler{
+  font-size: var(--normal-font-size);
+  line-height: 27px;
+}
+
+.home-btn .video-play{
+  font-weight: var(--font-medium);
+  padding: 1rem;
+}
+
+.badge{
+  padding: 0.7rem;
+  border-radius: 8px;
+  font-weight: var(--font-medium);
+}
+
+.navbar-brand img{
+  width: 55px;
+}
+
+.col p{
+  background-color: #157989;
+  width: 30%;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.content img{
+  width: 200px;
+}
+
+section.services .content .services-title{
+  font-weight: var(--font-semibold);
+}
+
+section.about{
+  padding: 10rem 0 10rem;
+}
+
+.rt{
+  color: var(--primary-color);
+}
+
+.m{
+  display: flex;
+}
+
+.m li{
+  padding-right: 20px;
+}
+
+.item img{
+  width: 200px;
+}
+
+.btn-cart{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  padding: 0.725rem .913rem;
+  border-radius: .5rem;
+}
+
+section.menu .card-menu{
+  filter: drop-shadow(0px 5.42857px 40.7143px rgba(0, 0, 0, 0.5));
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+section.menu .card-menu .item{
+  position: relative;
+  width: 100%;
+}
+
+section.menu .card-menu img{
+  width: 50%;
+}
+
+section.menu .card-menu .item .menu-title{
+  font-weight: var(--font-semibold);
+}
+
+.col-4{
+  width: 25%;
+}
+
+.col-4 img{
+  width: 200px;
+}
+
+.container span{
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.item h4{
+  color: var(--primary-color);
+}
+
+.item a{
+  background-color: var(--primary-color);
+}
+
+section.testimonials{
+  padding: 10rem 0 10rem;
+}
+
+section.testimonials .content-testimonials i{
+  color: var(--yellow-color);
+  font-size: 1.3rem;
+}
+
+section.testimonials .carousel-indicators{
+  bottom: 3rem;
+}
+
+section.testimonials .carousel-indicators button{
+  width: 0.7rem;
+  height: 0.7rem;
+  outline: none;
+  border: none;
+  margin-right: 0.2rem;
+}
+.wowi{
+  margin-top: 200%;
+}
+
+section.newsletter{
+  padding: 10rem 0 10rem;
+}
+
+.newsletter-content{
+  padding: 6rem;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+.form-newsletter{
+  display: flex;
+  justify-content: center;
+}
+
+.input .form-newsletter::placeholder{
+  font-size: 15px !important;
+}
+
+input.form-control{
+  box-shadow: 0px 4px 20px rgb(0, 0, 0 / 8%);
+  border-radius: 10px;
+  border: none;
+  margin-right: 1rem;
+  padding: 1rem;
+  width: 25rem;
+  height: 3.3rem;
+}
+
+.btn-primary-light{
+  color: var(--primary-color);
+  background-color: whitesmoke;
+}
+
+.footer-selection{
+  color: var(--black-color);
+}
+
+footer.footer-selection{
+  font-size: var(--smaller-font-size);
+  padding: 1rem;
+}
+
+.footer-selection .footer-brand span{
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+}
+
+.footer-link li a{
+  color: var(--black-color);
+}
+
+.footer-link li a:hover{
+  color: var(--primary-color);
+}
+
+.z{
+  color: var(--primary-color);
+}
+
+@media (max-width: 576px){
+  .btn-primary{
+    margin: auto;
+}
+}
